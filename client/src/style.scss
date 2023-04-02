@@ -197,13 +197,26 @@ $lightGreen : #b9e7e7;
                                 color: black;
                             }
                         }
-
                     }
                 }
-
             }
         }
 
+        //single page
+
+        .single{
+            display: flex;
+            gap: 50px;
+
+            .content{
+                flex: 5;
+            }
+
+            .menu{
+                flex: 2;
+            }
+
+        }
 
     }
 }
