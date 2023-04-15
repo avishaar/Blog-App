@@ -3,6 +3,7 @@ import Logo from "../img/logo.png";
 import Edit from "../img/edit.png";
 import Delete from "../img/delete.png";
 import { Link } from "react-router-dom";
+import Menu from "../components/Menu";
 
 const Single = () => {
     return (
@@ -28,7 +29,7 @@ const Single = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!</p>
                 </div>
-            <div className="menu">m</div>
+            <Menu />
         </div>
     )
 };
