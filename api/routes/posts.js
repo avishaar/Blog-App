@@ -1,9 +1,5 @@
-import express from "express";
+import express from "express"
 
-const router = express.Router();
+const router = express.Router()
 
-router.get("/test", (req, res) => {
-    res.json("this is post")
-});
-
-export default router;
+export default router
